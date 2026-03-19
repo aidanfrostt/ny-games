@@ -109,7 +109,7 @@ export const strandsPuzzle = {
   placements,
   grid,
   date: "March 18, 2026",
-  puzzleNo: 745,
+  puzzleNo: 1,
   author: "Edited for anniversary",
   editor: "Special edition",
 };
