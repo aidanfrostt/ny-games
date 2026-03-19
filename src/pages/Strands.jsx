@@ -36,15 +36,12 @@ export default function StrandsPage() {
             Play
           </button>
           <p className="strands-intro-subtext">
-            Want to access more games and features?
+            I hope you love this game, I love you
           </p>
           <div className="strands-intro-buttons">
-            <button type="button" className="strands-btn strands-btn-primary">
-              Log in
-            </button>
-            <button type="button" className="strands-btn strands-btn-outline">
-              Subscribe
-            </button>
+            <Link to="/" className="strands-btn strands-btn-primary">
+              Home
+            </Link>
           </div>
           <footer className="strands-intro-footer">
             <p>{date}</p>
