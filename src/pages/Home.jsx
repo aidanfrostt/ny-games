@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="home-page">
       <header className="home-masthead">
-        <h1 className="home-masthead-title">Games</h1>
+        <h1 className="home-masthead-title">Anniversary NYT Games</h1>
       </header>
 
       <header className="hero">

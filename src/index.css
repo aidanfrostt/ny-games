@@ -704,6 +704,497 @@ a {
   margin-bottom: 0;
 }
 
+/* Connections password gate */
+.connections-password {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #f0e6d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(24px, env(safe-area-inset-top)) 24px max(40px, env(safe-area-inset-bottom));
+  text-align: center;
+}
+
+.connections-password-content {
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.connections-password-title {
+  margin: 0;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #121212;
+}
+
+.connections-password-text {
+  margin: 0;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+.connections-password-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.connections-password-input {
+  width: 100%;
+  max-width: 260px;
+  padding: 14px 16px;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 16px;
+  border: 2px solid #d0d0d0;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.connections-password-input:focus {
+  outline: none;
+  border-color: #121212;
+}
+
+.connections-password-error {
+  margin: 0;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 14px;
+  color: #c62828;
+}
+
+.connections-password-back {
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 14px;
+  color: #121212;
+  text-decoration: underline;
+}
+
+.connections-password-back:hover {
+  opacity: 0.8;
+}
+
+/* Connections intro - warm beige (NYT-style) */
+.connections-intro {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #f0e6d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(24px, env(safe-area-inset-top)) 24px max(40px, env(safe-area-inset-bottom));
+  text-align: center;
+}
+
+.connections-intro-content {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.connections-intro-title {
+  margin: 0;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #121212;
+}
+
+.connections-intro-text {
+  margin: 0;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #121212;
+}
+
+.connections-play-btn {
+  width: 100%;
+  max-width: 280px;
+  padding: 16px 32px;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #121212;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: opacity 0.2s;
+}
+
+.connections-play-btn:hover {
+  opacity: 0.9;
+}
+
+/* Connections password gate */
+.connections-password {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #f0e6d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(24px, env(safe-area-inset-top)) 24px max(40px, env(safe-area-inset-bottom));
+  text-align: center;
+}
+
+.connections-password-content {
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.connections-password-title {
+  margin: 0;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #121212;
+}
+
+.connections-password-text {
+  margin: 0;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+.connections-password-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.connections-password-input {
+  width: 100%;
+  padding: 14px 16px;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 16px;
+  border: 2px solid #d0d0d0;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.connections-password-input:focus {
+  outline: none;
+  border-color: #121212;
+}
+
+.connections-password-error {
+  margin: 0;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 14px;
+  color: #c62828;
+}
+
+.connections-password-back {
+  margin-top: 8px;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 14px;
+  color: #666666;
+  text-decoration: none;
+}
+
+.connections-password-back:hover {
+  color: #121212;
+  text-decoration: underline;
+}
+
+/* Connections page - playing (white to match NYT) */
+.connections-page {
+  background: #ffffff;
+}
+
+.connections-header .back-link {
+  background: transparent;
+  border-color: #8c8c8c;
+  color: #121212;
+}
+
+.connections-header h1 {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-weight: 700;
+}
+
+.connections-shell {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px 20px 28px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.connections-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.connections-instructions {
+  margin: 0;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #121212;
+  text-align: center;
+}
+
+.connections-found {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.connections-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+}
+
+.connections-group--yellow {
+  background: #f6f3c9;
+  border: 2px solid #e8dd6e;
+  color: #3d3a0a;
+}
+
+.connections-group--green {
+  background: #c8e6c9;
+  border: 2px solid #81c784;
+  color: #1b3d1e;
+}
+
+.connections-group--blue {
+  background: #bbdefb;
+  border: 2px solid #64b5f6;
+  color: #0d2d4d;
+}
+
+.connections-group--purple {
+  background: #e1bee7;
+  border: 2px solid #ba68c8;
+  color: #3d0d3d;
+}
+
+.connections-group-label {
+  font-weight: 700;
+  font-size: 14px;
+  min-width: 120px;
+}
+
+.connections-group-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.connections-group-word {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.connections-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: minmax(48px, 1fr);
+  grid-auto-flow: row;
+  gap: 8px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.connections-cell {
+  padding: 12px 8px;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #121212;
+  background: #efefe6;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+  -webkit-tap-highlight-color: transparent;
+  min-width: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.connections-cell:hover {
+  background: #e8e8df;
+  border-color: #ccc;
+}
+
+.connections-cell--selected {
+  background: #e0dfd6;
+  border-color: #121212;
+  color: #121212;
+}
+
+.connections-submit-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.connections-btn {
+  padding: 12px 24px;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: opacity 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.connections-btn:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.connections-btn-shuffle {
+  background: transparent;
+  color: #121212;
+  border: 2px solid #121212;
+}
+
+.connections-btn-shuffle:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.connections-btn-shuffle:disabled {
+  border-color: #cecece;
+  color: #999999;
+}
+
+.connections-btn-primary {
+  background: #121212;
+  color: #ffffff;
+  border: 2px solid #121212;
+}
+
+.connections-btn-primary:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.connections-btn-primary:disabled {
+  background: transparent;
+  color: #999999;
+  border-color: #cecece;
+}
+
+.connections-btn-secondary {
+  background: transparent;
+  color: #121212;
+  border: 2px solid #121212;
+}
+
+.connections-btn-secondary:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.connections-btn-secondary:disabled {
+  border-color: #cecece;
+  color: #999999;
+}
+
+.connections-mistakes {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.connections-mistakes-label {
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+.connections-mistakes-circles {
+  display: flex;
+  gap: 6px;
+}
+
+.connections-mistake {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.connections-mistake--remaining {
+  background: #5a5a5a;
+}
+
+.connections-mistake--used {
+  background: #e0e0e0;
+}
+
+.connections-status {
+  margin: 0;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+  min-height: 22px;
+}
+
+.connections-win {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.connections-win-title {
+  margin: 0;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+.connections-lose {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.connections-lose-title {
+  margin: 0 0 8px;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #c62828;
+}
+
+.connections-lose-text {
+  margin: 0;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
 .placeholder-page p {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   color: #4b4b4b;
